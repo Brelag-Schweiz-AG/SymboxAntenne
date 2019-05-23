@@ -10,7 +10,7 @@ public function Create(){
 
   //These lines are parsed on Symcon Startup or Instance creation
   //You cannot use variables here. Just static values.
-  
+
 
 }
 
@@ -47,7 +47,7 @@ public function ForwardData($JSONString) {
     $data = json_decode($JSONString);
     IPS_LogMessage("ForwardData", utf8_decode($data));
 
-    $resultat = $this->SendDataToParent(json_encode(Array("DataID" => "{FD7FF32C-331E-4F6B-8BA8-F73982EF5AA7}", "Buffer" => $data->Buffer)));
+    $resultat = $this->SendDataToParent(json_encode(Array("DataID" => "{018EF6B5-AB94-40C6-AA53-46943E824ACF}", "Buffer" => $data->Buffer)));
 
     return $resultat;
 }
