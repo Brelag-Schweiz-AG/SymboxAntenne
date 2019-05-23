@@ -7,8 +7,8 @@
 	[
 		"SymBox Antenne"
 	],
-	"parentRequirements": ["{C8792760-65CF-4C53-B5C7-A30FCC84FEFE}"],
+	"parentRequirements": ["{4A550680-80C5-4465-971E-BBF83205A02B}"],
 	"childRequirements": ["{8461A6B8-8FC3-5E4D-CFA3-6D3C23F9A547}"],
-	"implemented": ["{E39B5F36-330E-8914-126E-E5105CFCD54D}", "{7A1272A4-CBDB-46EF-BFC6-DCF4A53D2FC7}"],
+	"implemented": ["{E39B5F36-330E-8914-126E-E5105CFCD54D}", "{FD7FF32C-331E-4F6B-8BA8-F73982EF5AA7}"],
 	"prefix": "DonCri"
 }
