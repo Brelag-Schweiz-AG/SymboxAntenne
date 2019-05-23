@@ -1,6 +1,6 @@
 <?
 
-class eGateG1 extends IPSModule {
+class SymBoxAntenne extends IPSModule {
 
 private $Host = "";
 
